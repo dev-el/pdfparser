@@ -59,4 +59,4 @@ Afterwards you can use `PDFParser` class and others.
 
 ## License ##
 
-This library is under the [LGPLv3 license](https://github.com/smalot/pdfparser/blob/master/LICENSE.txt).
+This library is under the [LGPLv3 license](https://github.com/dev-el/pdfparser/blob/master/LICENSE.txt).

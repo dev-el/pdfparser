@@ -1,5 +1,5 @@
 {
-    "name": "smalot/pdfparser",
+    "name": "dev-el/pdfparser",
     "description": "Pdf parser library. Can read and extract information from pdf file.",
     "keywords": ["PDF", "text", "parser", "parse", "extract"],
     "type": "library",
@@ -8,6 +8,10 @@
         {
             "name": "Sebastien MALOT",
             "email": "sebastien@malot.fr"
+        },
+        {
+            "name": "Jesiel Emerim Schardosim",
+            "email": "jesiel.schardosim@sisdado.com.br"
         }
     ],
     "support": {
