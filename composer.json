@@ -19,7 +19,7 @@
     },
     "homepage": "https://www.pdfparser.org",
     "require": {
-        "symfony/polyfill-mbstring": "^1.18",
+        "dev-el/polyfill-mbstring": "^1.18",
         "ext-zlib": "*"
     },
     "autoload": {
