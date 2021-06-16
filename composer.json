@@ -19,7 +19,6 @@
     },
     "homepage": "https://www.pdfparser.org",
     "require": {
-        "php": ">=7.1",
         "symfony/polyfill-mbstring": "^1.18",
         "ext-zlib": "*"
     },

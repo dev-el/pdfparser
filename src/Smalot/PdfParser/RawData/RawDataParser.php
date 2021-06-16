@@ -470,17 +470,17 @@ class RawDataParser
         return $xref;
     }
 
-    protected function getObjectHeaderPattern($objRefArr): string
+    protected function getObjectHeaderPattern($objRefArr)
     {
         // consider all whitespace character (PDF specifications)
-        return '/'.$objRefArr[0].$this->config->getPdfWhitespacesRegex().$objRefArr[1].$this->config->getPdfWhitespacesRegex().'obj'.'/';
+        return ((string) '/'.$objRefArr[0].$this->config->getPdfWhitespacesRegex().$objRefArr[1].$this->config->getPdfWhitespacesRegex().'obj'.'/');
     }
 
-    protected function getObjectHeaderLen($objRefArr): int
+    protected function getObjectHeaderLen($objRefArr)
     {
         // "4 0 obj"
         // 2 whitespaces + strlen("obj") = 5
-        return 5 + \strlen($objRefArr[0]) + \strlen($objRefArr[1]);
+        return ((int) 5 + \strlen($objRefArr[0]) + \strlen($objRefArr[1]));
     }
 
     /**

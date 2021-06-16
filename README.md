@@ -2,21 +2,18 @@
 
 Pdf Parser, a standalone PHP library, provides various tools to extract data from a PDF file.
 
-![CI](https://github.com/smalot/pdfparser/workflows/CI/badge.svg)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/smalot/pdfparser/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/smalot/pdfparser/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/smalot/pdfparser/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/smalot/pdfparser/?branch=master)
-[![License](https://poser.pugx.org/smalot/pdfparser/license)](//packagist.org/packages/smalot/pdfparser)
+[![License](https://poser.pugx.org/dev-el/pdfparser/license)](//packagist.org/packages/dev-el/pdfparser)
 
-[![Latest Stable Version](https://poser.pugx.org/smalot/pdfparser/v)](//packagist.org/packages/smalot/pdfparser)
-[![Total Downloads](https://poser.pugx.org/smalot/pdfparser/downloads)](//packagist.org/packages/smalot/pdfparser)
-[![Monthly Downloads](https://poser.pugx.org/smalot/pdfparser/d/monthly)](//packagist.org/packages/smalot/pdfparser)
-[![Daily Downloads](https://poser.pugx.org/smalot/pdfparser/d/daily)](//packagist.org/packages/smalot/pdfparser)
+[![Latest Stable Version](https://poser.pugx.org/dev-el/pdfparser/v)](//packagist.org/packages/dev-el/pdfparser)
+[![Total Downloads](https://poser.pugx.org/dev-el/pdfparser/downloads)](//packagist.org/packages/dev-el/pdfparser)
+[![Monthly Downloads](https://poser.pugx.org/dev-el/pdfparser/d/monthly)](//packagist.org/packages/dev-el/pdfparser)
+[![Daily Downloads](https://poser.pugx.org/dev-el/pdfparser/d/daily)](//packagist.org/packages/dev-el/pdfparser)
 
-Website : [https://www.pdfparser.org](https://www.pdfparser.org/?utm_source=GitHub&utm_medium=website&utm_campaign=GitHub)
+Original Authors Website : [https://www.pdfparser.org](https://www.pdfparser.org/?utm_source=GitHub&utm_medium=website&utm_campaign=GitHub)
 
-Test the API on our [demo page](https://www.pdfparser.org/demo).
+Test the original API on theirs [demo page](https://www.pdfparser.org/demo).
 
-This project is supported by [Actualys](http://www.actualys.com).
+The original project is supported by [Actualys](http://www.actualys.com).
 
 ## Features ##
 
@@ -49,7 +46,7 @@ Original PDF References files can be downloaded from this url: http://www.adobe.
 ### Using Composer
 
 * Obtain [Composer](https://getcomposer.org)
-* Run `composer require smalot/pdfparser`
+* Run `composer require dev-el/pdfparser`
 
 ### Use alternate file loader
 
