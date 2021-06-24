@@ -303,18 +303,20 @@ class PDFObject
                         $args = preg_split('/\s/s', $command[self::COMMAND]);
                         $y = array_pop($args);
                         $x = array_pop($args);
-                        if (((float) $x <= 0) ||
-                            (false !== $current_position_td['y'] && (float) $y < (float) ($current_position_td['y']))
+                        $delta = ((float) $x - (float) ($current_position_td['x']));
+                        if (((float) $x <= 0)
+                            || (false !== $current_position_td['y'] && (float) $y < (float) ($current_position_td['y']))
+                            || (false !== $current_position_td['x'] && $delta > (float) 10)
                         ) {
                             // vertical offset
                             $text .= "\n";
-                        } elseif (false !== $current_position_td['x'] && (float) $x > (float) (
+                        } /*elseif (false !== $current_position_td['x'] && (float) $x > (float) (
                                 $current_position_td['x']
                             )
                         ) {
                             // horizontal offset
-                            //$text .= ' ';
-                        }
+                            $text .= " ";
+                        }*/
                         $current_position_td = ['x' => $x, 'y' => $y];
                         break;
 
